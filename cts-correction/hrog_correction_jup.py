@@ -4,8 +4,6 @@
 import os
 import asyncio
 import uvloop
-import plotly.express as px
-import pandas as pd
 from fastapi import FastAPI, Query, Request
 from fastapi.responses import HTMLResponse
 from typing import Annotated
